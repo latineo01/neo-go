@@ -1,6 +1,6 @@
 <p align="center">
 <img
-    src="http://res.cloudinary.com/vidsy/image/upload/v1503160820/CoZ_Icon_DARKBLUE_200x178px_oq0gxm.png"
+    src="https://res.cloudinary.com/latineo/image/upload/c_thumb,w_200,g_face/v1546981349/logo2.png"
     width="125px"
   >
 </p>
@@ -8,25 +8,14 @@
 <h1 align="center">neo-go</h1>
 
 <p align="center">
-  <b>Go</b> Node and SDK for the <a href="https://neo.org">NEO</a> blockchain.
+  <b>Go</b> Nodo y SDK para el <a href="https://neo.org">NEO</a> blockchain.
 </p>
 
-<p align="center">
-  <a href="https://github.com/CityOfZion/neo-go/releases">
-    <img src="https://img.shields.io/github/tag/CityOfZion/neo-go.svg?style=flat">
-  </a>
-  <a href="https://circleci.com/gh/CityOfZion/neo-go/tree/master">
-    <img src="https://circleci.com/gh/CityOfZion/neo-go/tree/master.svg?style=shield">
-  </a>
-  <a href="https://goreportcard.com/report/github.com/CityOfZion/neo-go">
-    <img src="https://goreportcard.com/badge/github.com/CityOfZion/neo-go">
-  </a>
-</p>
 
 # Overview
 
-This project aims to be a full port of the original C# [NEO project](https://github.com/neo-project).
-A complete toolkit for the NEO blockchain, including:
+En este projecto podras encontrar una version en español de las versiones originales de  C# [NEO project](https://github.com/neo-project).
+un set completo de herramientas para el blockchain de NEO, incluyendo:
 
 - consensus node
 - [RPC node & client](https://github.com/CityOfZion/neo-go/tree/master/pkg/rpc/README.md)
