@@ -8,7 +8,7 @@
 <h1 align="center">neo-go</h1>
 
 <p align="center">
-  <b>Go</b> Nodo y SDK para el <a href="https://neo.org">NEO</a> blockchain.
+  Nodo de <b>Go</b> y SDK para el blockchain de <a href="https://neo.org">NEO</a>.
 </p>
 
 
@@ -24,36 +24,36 @@ un set completo de herramientas para el blockchain de NEO, incluyendo:
 - Smart contract compiler
 - NEO virtual machine
 
-# Getting started
+# Para Comenzar
 
-## Installation
+## Instalación
 
-Install dependencies.
+Instalar las dependencias.
 
-`neo-go` uses [dep](https://github.com/golang/dep) as its dependency manager. After installing `deps` you can run:
+`neo-go` utiliza [dep](https://github.com/golang/dep) como un administrador de dependencias. despuede instalar `deps`  se puede ejecutar:
 
 ```
 make deps
 ```
 
-## How to setup a node
+## Como configurar un nodo
 
 ### Docker
 
-Each tagged build is built to docker hub and the `:latest` tag pointing at the latest tagged build.
+Cada compilación esta entiqueda en el concentrador de connexion  `:latest` esta etiqueta apunta a la ultima compilaión etiquetada.
 
-By default the `CMD` is set to run a node on `testnet`, so to do this simply run:
+Por defecto `CMD` esta configuradao para correr en modo `testnet`, asi que para hacer esto solo hay que ejecutar:
 
 ```bash
  docker run -d --name neo-go -p 20332:20332 -p 20333:20333 cityofzion/neo-go
 ```
 
-Which will start a node on `testnet` and expose the nodes port `20333` and `20332` for the `JSON-RPC` server.
+El cual iniciará un nodo en modo `testnet` y expones los puertos `20333` y `20332` para el servidor `JSON-RPC`.
 
 
-### Building
+### Compilación
 
-Build the **neo-go** CLI:
+Compilar **neo-go** CLI:
 
 ```
 make build
